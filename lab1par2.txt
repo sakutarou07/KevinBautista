@@ -1,0 +1,17 @@
+HTTPS
+echo "# KevinBautista" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sakutarou07/KevinBautista.git
+git push -u origin main
+
+SSH
+echo "# KevinBautista" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:sakutarou07/KevinBautista.git
+git push -u origin main
